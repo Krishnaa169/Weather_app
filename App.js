@@ -1,11 +1,9 @@
-import Approuter from ".";
+import WeatherApp from './WeatherApp';
 
-function App(){
-  return(
-    <div>
-    <Approuter/>
-    </div>
-  );
 
+function App() {
+  return <WeatherApp />;
 }
+
+
 export default App;
