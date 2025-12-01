@@ -11,7 +11,7 @@ function WeatherApp() {
     e.preventDefault();
     setError('');
     try {
-      const apiKey = "28c24b8cd6875367366961a624d7a18b";
+      const apiKey = "api key ";
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
       const response = await axios.get(url);
       setWeather(response.data);
@@ -49,4 +49,5 @@ function WeatherApp() {
 }
 
 export default WeatherApp;
+
 
